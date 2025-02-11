@@ -11,7 +11,7 @@ import EmployerDashboard from "../pages/EmployerDashboard";
 import JobSeekerDashboard from "../pages/JobSeekerDashboard";
 import ApplyJob from "../pages/ApplyJob";
 
-export default function WebPortal() {
+export default function MainPage() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col items-center bg-gray-100 p-4">
