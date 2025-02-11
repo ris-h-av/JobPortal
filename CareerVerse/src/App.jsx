@@ -1,13 +1,14 @@
 import { useState } from "react";
 import "./App.css";
-import "./components/MainPage.jsx";
+import "./components/FrontPage";
+import FrontPage from "./components/FrontPage";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <MainPage />
+      <FrontPage />
     </>
   );
 }
